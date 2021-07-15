@@ -1,0 +1,44 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 60px;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.nav_black {
+  background-color: #111;
+}
+
+.nav_logo {
+  width: 80px;
+  position: fixed;
+  left: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.nav_avatar {
+  width: 30px;
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=Nav.css.map */
